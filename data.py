@@ -116,14 +116,10 @@ data = pd.read_csv("dataset.csv")
 sns.scatterplot(x='age', y='sex', data=data,
                hue='target')
 
-# Scatter plot with against tip
-#plt.scatter(data['age'], data['sex'])
+
 
 # Adding Title to the Plot
 plt.title("maladies cardiaques")
 
-# Setting the X and Y labels
-#plt.xlabel('age')
-#plt.ylabel('sex')
 
 plt.show()
