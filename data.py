@@ -113,7 +113,7 @@ classify(training,testing)
 
 #reading the database
 data = pd.read_csv("dataset.csv")
-sns.scatterplot(x='age', y='sex', data=data,
+sns.scatterplot(x='sex', y='age', data=data,
                hue='target')
 
 
